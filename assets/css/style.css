@@ -6,6 +6,23 @@
     background-color: #676767;
 }
 
+.ui-menu-color-home {
+    background-color: #fdbafa;
+}
+
+.ui-menu-color-resume {
+    background-color: #c59ad6;
+}
+
+.ui-menu-color-contact {
+    background-color: #a8d5f3;
+}
+
+.ui-menu-color-download {
+    background-color: #cedaf1;
+}
+
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -42,4 +59,17 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+/*-----------Removing spaces between menu items--------------*/
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
